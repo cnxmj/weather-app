@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wetter App</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <input type="text" placeholder="Enter city in Germany" id="search-input">
+      <button id="search-btn" class="material-symbols-outlined" type="submit">search</button>
+    </div>
+    <div class="weather-info">
+      <div class="main-info">
+        <div class="icon">
+          <span id="icon"></span>
+        </div>
+        <h1 class="temperature">
+          <span id="temperature"></span>°C</h1>
+        <p class="description">
+          <span id="description"></span>
+        </p>
+        <p class="date"><span id="date"></span></p>
+        <h2 class="city"><span id="city"></span></h2>
+      </div>
+    <div class="details">
+      <div class="detail-item">
+        <h3>Wind</h3>
+        <p><span id="wind"></span> km/h</p>      
+      </div>
+      <div class="detail-item">
+        <h3>Humidity</h3>
+        <p><span id="humidity"></span>%</p>
+      </div>
+      <div class="detail-item">
+        <h3>Sunshine</h3>
+        <p><span id="sunshine"></span>%</p>
+      </div>
+      <div class="detail-item">
+        <h3>Cloud Cover</h3>
+        <p><span id="cloud-cover"></span>%</p>
+      </div>
+      <div class="detail-item">
+        <h3>Pressure</h3>
+        <p><span id="pressure"></span> mb</p>
+      </div>
+      <div class="detail-item">
+        <h3>Condition</h3>
+        <p><span id="condition"></span></p>
+      </div>      
+    </div>
+  </div>
+</div>
+  <script src="src/js/script.js"></script>
+</body>
+</html>

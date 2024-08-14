@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  background-color: lightgray;  
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.search-box {
+  padding: 20px;
+  display: flex;
+}
+
+.search-box input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.weather-info {
+  display: flex;
+}
+
+.main-info {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 48px;
+}
+
+.temperature {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.details {
+  flex: 2;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.detail-item {
+  background-color: #68a7f0;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.detail-item h3 {
+  margin-top: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+/*Colors: #BCABAE #0F0F0F #2D2E2E #716969 #FBFBFB */
